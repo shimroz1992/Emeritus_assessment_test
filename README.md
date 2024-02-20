@@ -1,22 +1,35 @@
-# Welcome to the assesment test
-### DO NOT FORK THIS PROJECT
+# Assessment Task
 
-### We have 3 objects:
-* A User that can either be a student (if it only learns courses), a teacher (if it only teaches)
-or a student_teacher if it does both things
+## Installation
 
-* A Program that represents the subject of a course (Eg: Calculus)
+### Clone the repository
 
-* An enrollment that represents the student and the teacher that are in a certain course 
 
-### Before coming to the first tecnical meeting you:
+`git clone https://github.com/shimroz1992/Emeritus_assessment_test`      
 
-* CAN NOT CHANGE THE TESTS or MIGRATIONS
+### Change Directory to Emeritus_assessment_test:   
+`cd Emeritus_assessment_test`
 
-* CAN NOT ADD NEW MODELS, CONTROLLERS or MIGRATIONS
+### Install Dependencies with Bundler:   
+`bundle install`
 
-* HAVE ALL RSPEC TESTS PASSING, without changing them (you can add more tests if you want)
+### Create the Database:
+`rails db:create`
 
-* Have a basic idea of how the code works
+### Run Migrations:
+`rails db:migrate`
 
-* Understand how models should interact
+### Start the Rails Server:
+`rails server` 
+
+And now you can visit the site with the URL http://localhost:3000
+
+### Additonal Info
+Please run the provided RSpec tests by executing the command
+
+`rspec`    
+
+   
+Thank you for reviewing the test task. Please let me know if you have any questions or feedback. We appreciate your time and consideration.
+
+
